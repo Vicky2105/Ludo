@@ -36,7 +36,7 @@ class Ludo extends JFrame implements ActionListener{
        
     }
       public void actionPerformed(ActionEvent e){
-          int dice=rand.nextInt(6)
+          int dice=rand.nextInt(6)+1;
          //System.out.println(dice);
          //x.setText(""+dice);
       }
